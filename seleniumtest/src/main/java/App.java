@@ -20,7 +20,7 @@ public class App
  System.out.println("Hi This is test to check webpage");
 
 
- driver.get("http://192.168.56.102:8002/");
+ driver.get("http://192.168.56.102:9002/");
 
  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
  driver.findElement(By.id("About Us")).click();
